@@ -3,7 +3,7 @@
 Lo scopo del progetto consiste nell’implementare un componente hardware, descritto in VHDL, che riceva in ingresso una serie di parole da 8 bit, le serializzi in un flusso continuo di singoli bit i quali, una volta codificati tramite codice convoluzionale ½, vengano riuniti a formare parole da 8 bit che verranno scritte in memoria. Il primo valore letto da memoria contiene il numero di parole da codificare. Ogni parola letta verrà quindi codificata in due come scritto nel seguente schema
 (uk = stream di singoli bit in ingresso, yk= bit codificati in uscita)
 
-<img src="https://github.com/Alessandro-Mosconi/Progetto_RetiLogiche/blob/main/resources/atapath.png" width=75% height=75%>
+<img src="https://github.com/Alessandro-Mosconi/Progetto_RetiLogiche/blob/main/resources/Codificatore.png" width=75% height=75%>
 
 ## ARCHITETTURA
 
